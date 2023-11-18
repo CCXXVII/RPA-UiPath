@@ -1,0 +1,130 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1794,995" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,930" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Rpa Challenge - Opera" sap:VirtualizedContainerService.HintSize="484,819" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e20da8be-5bfd-40ba-bd59-3be9e7d2797f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,528" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e20da8be-5bfd-40ba-bd59-3be9e7d2797f" Text="Enes" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvElementArea="1032, 258, 395, 34" CvType="InputBox" DesignTimeRectangle="1036, 244, 389, 47" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl idx='4' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" Guid="1a103de2-c985-4718-bb66-884498d71f68" InformativeScreenshot="a215ff5ce032887a9126ca420c135a6f.png" ScopeSelectorArgument="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge - Opera' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="1036, 227, 65, 12" CvTextArgument="First Name" CvType="Text" DesignTimeRectangle="1036, 225, 65, 17" ElementType="InputBox" FriendlyName="'First Name'" FullSelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl idx='3' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAVCAYAAAAQAyPeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMrSURBVFhH7ZaPS9tAFMf3//8RR0MPg7Zzq3ZciXRkeBAQw+I6K5EVw4LFaqQzjkJKy3cvycUmaXCdOoQtXzi4H7l3d597713eoNaaaigVqqFUqIZSoRpKhTaGspiryn+gIpRogtHpEMNcGV1HWJwJsIaBkfpsY0UzhLOFapQVwj/1MF2qplLop2u+popQbiy0mi2IAwOGKvI8BJZTeN5UfbS5AqsF1nNVqywXgjHwj55qp3J7DC0rUK3X0TqUHQtrW7p3IaVLd7uqT77bMHs2fOpa3A4hE4gmrG8K3tiBaGtgeieB64zT7pViKC1aj6N/obpIZSihR+sktiXZIO/6rC4qHjuXVJ/APzYhegKGdDCZ0cBsAkcKdPcFzGMPYd4b5wGGUl26acO7V/05bQYl3594E4feFrBOfIQ/bOw2WpAXAcIrB13O0P1K7n/nw+5xsHdmEob+XWIppxiKwPBSQtclxmrjeSjBEXka70Ce+giu6DL2WuBk/2E89sQGR/eYxm99OAc6WNuA2KM5BCukOf12zhujEQzO0Ykv9T6Af2JAp70f3aTDmR4Pn8w7ylAaAm5G/6IPbcuEpxJxdD2Ce5ne5O/Dh+xQbXyoQz9MXWkFxUO/qUNeJt1KY0i9CEXr5zNdPIcu5UsuJ11b0Jt9GgGmBLn4vbJRCuF1KNuSXCpEGJefyngZSsGbZhiZZLihQX9vwiaPyVLrplCwjA+bAniAEq+TjedU8CSyn9VTBbB2GERh0mqdeC7TOPhWrhBE9tZGPmM+LXyqvllGmPoOjG2GXTtdYmMosVQYSaEOHQ3QZV0MCg9RhMH+06GMDynsP1GOyS49K6UX8vlQXHquqT1R4TSWFNcHqYsmUMQwqa+rBIUUhxGjFyk9KAH4QPmgN3xIlKFnkvc8HQptDjqnPJYl1zl5KH2fXWKmF/CUNHwYhQ/nGjRdYJAl1RsHnS1yTzpIcaOx1qFgSTkhl0gx8yHf0QsW225S2bNhZZ5E+mMopOmZQTmRUR7k0DQNLXNEJyiqCOVZWiD6W/9c8whR/ll9AS0e2ewLQvl3VEOpUA2lQjWUCtVQ1gT8AikYzhgjHDWhAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SUBMIT'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e20da8be-5bfd-40ba-bd59-3be9e7d2797f" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="612, 574, 120, 40" CvTextArea="643, 586, 58, 14" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="615, 576, 116, 36" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'SUBMIT'" FullSelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl name='Submit' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl name='Submit' role='push button' automationid='' check:text='SUBMIT' /&gt;" Guid="4e1aed5f-bbe9-4813-a2b1-9730be317b69" InformativeScreenshot="32e78fe7e27dee09ca1a30875c871331.png" ScopeSelectorArgument="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge - Opera' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="625, 493, 51, 12" CvTextArgument="Address" CvType="Text" DesignTimeRectangle="626, 490, 50, 18" ElementType="InputBox" FriendlyName="'Address'" FullSelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl idx='13' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Rpa Challenge' role='document' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAAWCAYAAACL6W/rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMFSURBVFhH7VV/a+JAEL3v/yEWF5cGmp5Fq0QUS6DhwonhQr3msFQaLlxorvEsaREiyrvZZK2JP0q5PwoePgg4M2Zn3szbySf8pzgSOzQciR0ajsQODbuJzSKMbnxMl8p+A2NToO5MlbWNqVOHMMfK+jjsJBZaGhjj6L2jnlGbQbdjZW0jtnWw9khZH4cdxEJYJxqMdm1nQYnvwOx20OlacMME3gaxxcSDlcVN2LcxwgKx5NaCdRshGJgwBkHmwzKBT3ZHnelNFrlfohizXEQz5SeU6ngoBBS2id33wDUL4bODWqWJYar8hLhPRYo6rJsA8cMIVkOHEGti6V0HoqKhM/ARTQK4XRnnr8Tk9LjQoLdtuEEiPeifMWhdF8EkQUTE60Kgc5cn9S8FRIsIPcfwryi3rEsGqEYhmkQoQXxvQaecVhZYY4vYuMdVoSmGFwzN6xUzH70qHfBLmRloutqKWALnXP6/2D06o8VKxEoqoEawzw5KN3RkgJ07dFp+Xv2bbIBEgoDufTynXw6pqeEiUTsgCTz4xUkTysSWIxiVGpyn3Ey/N1USwqMNnRnYFOf6jtG7TIf9mPtXKJKRv4uyzWIVDnFCk1k9csKVDrLr/dtBkxrHqjUYtkcqyl6jOiM4LdoD9G6Npu/RldhEiVhGhDHwYhKmiKZDNFlZmqup5sXKuyk2JkreK7GXWHpN+S5cTJ9pPsXnpZQEC7mlLdquoge/uKnns1f59u6VT6FALJdN7WtUSjI0yDeQYsnjou2tJeCbNMX1Hcu26ZmNkOQisZi4aFbLUiwSy5pVoSmHSka0LDyDJnjpkxHDPuUwfihpzz1qrI7+n/wcbnjIIwt4VJfeL39y1sSetpdFhjEtk1Ob0hBmAewGTUDKp0pPw4FNxF+LXU7h0cLI4jRtfmrCMfdLUWL200b9hFRCXRecQ2s5iFZTISmuYpxitS8htZcgpSjr4PQO1cHPqZkbdW8tj3dhniJ96+O9pLia2ruRptT7PdgXeyPPvxE7AByJHRqOxA4LwF/hFNu7wJzYWQAAAABJRU5ErkJggg==" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" FilePath="C:\Users\Enes227\AppData\Local\Programs\Opera GX\opera.exe" IconBase64="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" InformativeScreenshot="bda6da59f53970ec66cff8643cd83fc1.png" Selector="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge - Opera' /&gt;" Title="Rpa Challenge - Opera" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
